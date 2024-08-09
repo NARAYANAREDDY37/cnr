@@ -9,4 +9,5 @@ export interface Project {
 	youtubeUrl?: string;
 	name: string;
 	detail?: string;
+	previewImage?: string;
 }

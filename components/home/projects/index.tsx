@@ -22,11 +22,11 @@ export default function Projects() {
 								aria-hidden
 								className='w-full overflow-hidden bg-primary h-96 bg-center bg-no-repeat bg-cover flex-shrink-0'
 								style={{
-									backgroundImage: `url(/static/projects/${project.name}.webp)`,
+									backgroundImage: `url(/static/projects/${project.previewImage}.png)`,
 								}}
 							/>
 							<div className='mt-4 px-4 h-full flex flex-col'>
-								<h3 className='capitalize mb-0'>{project.name}</h3>
+								<h3 className='capitalize mb-0'>{project.previewImage}</h3>
 								{project.paragraphs.map((par) => (
 									<p key={par} className='text-muted-foreground mb-1'>
 										{par}
