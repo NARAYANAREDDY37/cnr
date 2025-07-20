@@ -15,7 +15,7 @@ export default function Contacts() {
 			/>
 			<Contact href='https://github.com/NARAYANAREDDY37' text='Github' />
 			<Contact
-				href='https://drive.google.com/file/d/1M6bpS2rs2NFGPkMmimBmkh_M3mGXFpcj/view?usp=sharing'
+				href='https://drive.google.com/file/d/1M7DwtTZhttl9Wzoll7_bunZoKmqH4TNq/view?usp=sharing'
 				text='Resume'
 			/>
 		</div>
